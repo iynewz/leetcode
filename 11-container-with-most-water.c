@@ -1,4 +1,4 @@
-int maxArea(int* height, int heightSize){
+_int maxArea(int* height, int heightSize){
     int water = 0;
     int *l = height;
     int *r = l + heightSize - 1;
