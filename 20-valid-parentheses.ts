@@ -18,3 +18,5 @@ function isValid(arrayS: string): boolean {
   }
   return stack.length == 0;
 }
+
+/*learned: 1. 不要打错字 2. 从语义上更好的命名，map->expect 3. else if 的执行逻辑 4. 清晰表达自己的思维*/
